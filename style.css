@@ -12,9 +12,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Oswald", Arial, Helvetica;
+    color: #978667;
+
     }
 
 nav {
+    position: absolute;
+    top: 0;
+    width: 100vw;
     height: 3rem;
     display: flex;
     justify-content: space-between;
@@ -58,3 +63,9 @@ nav {
 .hidden {
     display: none;
     }
+
+.welcome {
+    padding-top: 2rem;
+    background-color:   #100A0B
+;
+}
